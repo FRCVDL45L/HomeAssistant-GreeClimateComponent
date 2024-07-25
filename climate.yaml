@@ -1,8 +1,8 @@
 - platform: gree
   # required settings:
-  name: First AC
-  host: <ip of your first AC>
-  mac: '<mac address of your first AC>'
+  name: climatiseur Robin
+  host: <192.168.1.32>
+  mac: '<94:24:B8:A3:9A:09>'
   # optional settings:
   port: 7000
   timeout: 10
@@ -17,9 +17,9 @@
 
 - platform: gree
   # required settings:
-  name: Second AC
-  host: <ip of your second AC>
-  mac: '<mac address of your second AC>'
+  name: climatiseur Raphaël
+  host: <192.168.1.135>
+  mac: '<94:24:B8:A3:6F:F1>'
   # optional settings:
   port: 7000
   timeout: 10
